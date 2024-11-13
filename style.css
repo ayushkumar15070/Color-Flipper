@@ -1,0 +1,80 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+      height: 100vh;
+      background-color: #1A1A1A;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+}
+
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+      border: 2px solid #04ff00;
+      background-color: black;
+      border-radius: 10px;
+}
+
+.container .input-field {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 700px;
+      gap: 20px;
+}
+
+.container .input-field label {
+      color: #04ff00;
+      font-size: 18px;
+      font-weight: bold;
+}
+
+.container .input-field input {
+      width: 100px;
+      padding: 5px 10px;
+      border: 2px solid #04ff00;
+      border-radius: 10px;
+      color: white;
+      background-color: transparent;
+      outline: none;
+}
+
+.container .input-field input::placeholder {
+      color: transparent;
+}
+
+.container .input-field input:focus {
+      border-color: aquamarine;
+}
+
+.container button.btn {
+      margin-top: 20px;
+      background-color: transparent;
+      color: #04ff00;
+      border: 2px solid #04ff00;
+      border-radius: 10px;
+      transition: all 0.4s ease;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 10px 20px;
+}
+
+.container button.btn:hover {
+      transform: scale(0.8);
+      background-color: white;
+      border-color: #04ff00;
+      color: #04ff00;
+}
